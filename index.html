@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>CelisLight - Experiencia Gastronómica</title>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-uppercase" href="#">CelisLight</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="bg-light text-center py-5">
+      <h1 class="display-4">Bienvenidos a CelisLight</h1>
+      <p class="lead">Descubre una experiencia culinaria única, donde cada plato es un deleite para tus sentidos.</p>
+    </header>
+
+    <section id="menu" class="py-md-5">
+      <h2 class="my-5 text-center">Nuestro Menú</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="css/Lasaña.jpeg" class="card-img-top" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Plato Especial 1 - Lasaña en salsa roja</h5>
+                <p class="card-text">Una mezcla de sabores traido desde el mediterraneo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="css/Pesto.png" class="card-img-top" alt="Plato 2">
+              <div class="card-body">
+                <h5 class="card-title">Plato Especial 2 - Pasta el pesto de pollo  </h5>
+                <p class="card-text">Ingredientes frescos y recetas auténticas. Especiales para compartir con tu pareja en un día especial.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="css/sancocho.jpg" class="card-img-top" alt="Plato 3">
+              <div class="card-body">
+                <h5 class="card-title">Plato Especial 3 - Sancocho de pollo </h5>
+                <p class="card-text">El equilibrio perfecto entre tradición y modernidad. Impecable para compartir con tu familia. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-md-5">
+      <h2 class="my-5 text-center">Preguntas Frecuentes</h2>
+      <div class="container">
+        <div class="accordion w-75 mx-auto" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Tienen opciones vegetarianas o veganas?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>¡Claro que sí!</strong> Contamos con un menú especial para vegetarianos y veganos, apta para cada cliente. 
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Puedo reservar una mesa con anticipación?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Sí, puedes hacerlo</strong> a través de nuestra página web o llamando al restaurante.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Ofrecen servicios para eventos especiales?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>¡Por supuesto!</strong> Tenemos opciones personalizadas para cumpleaños, aniversarios y más. Solo debe cotactarse con nostros por la página web o llamando al restaurante.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light text-center">
+          <p class="display-5 mb-3">WyDelights</p>
+          <small class="text-white-50">&copy; Copyright by Angélica G. All rights reserved. </small>
+        </div>
+    </footer>
+</body>
+</html>
